@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div class="Leveling-banner"> </div>
-    <h1>Classic Druid Class Page</h1>
+    <h1>Talent Calculator</h1>
     <h1>{{msg}}</h1>
         <h2>
             <ol>
@@ -17,8 +16,7 @@
       <p>
         <ul>
           <li>
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/UNHSOBkCYBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-
+            <a href="https://classicdb.ch/?talent#0">Druid Talent Calculator</a>
           </li>
         </ul>
       </p>
@@ -29,7 +27,10 @@
 <script>
 
 export default {
-  name: 'HelloWorld',
+  name: 'TalentCalculator',
+  components:{
+    
+  },
   props: {
     msg: String,
   }
@@ -49,14 +50,5 @@ li {
 }
 a {
   color: black;
-}
-.Leveling-banner {
-  background: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/RAVO061FQRBO1556236141697.jpg);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:100vh;
-  height: 40vh;
-  background-size: cover;
 }
 </style>

@@ -1,7 +1,6 @@
 <template>
   <div>
-    <div class="Leveling-banner"> </div>
-    <h1>Classic Druid Class Page</h1>
+    <h1>Healing Page</h1>
     <h1>{{msg}}</h1>
         <h2>
             <ol>
@@ -17,19 +16,24 @@
       <p>
         <ul>
           <li>
-            <iframe width="800" height="450" src="https://www.youtube.com/embed/UNHSOBkCYBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-
+            <a href="https://www.reddit.com/r/lightshope/comments/83g8u5/help_me_not_suck_as_a_resto_druid_pve/">Help me not suck as a resto druid (PvE)</a><br>
+            <a href="https://www.warcrafttavern.com/guides/restro-druid-pre-raid-gear-guide-for-wow-classic/">Pre-BIS Gear List & Stat Priority</a><br>
           </li>
         </ul>
       </p>
       <hr>
+      <h2> Videos </h2>
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/tUKGYhkNSHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'HelloWorld',
+  name: 'Healing',
+  components:{
+    
+  },
   props: {
     msg: String,
   }
@@ -41,7 +45,7 @@ export default {
 ul {
   color: black;
   list-style-type: circle;
-  text-align: center;
+  text-align: left;
 }
 li {
   display: inline-block;
@@ -49,14 +53,5 @@ li {
 }
 a {
   color: black;
-}
-.Leveling-banner {
-  background: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/RAVO061FQRBO1556236141697.jpg);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:100vh;
-  height: 40vh;
-  background-size: cover;
 }
 </style>
