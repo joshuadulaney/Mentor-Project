@@ -9,6 +9,7 @@
             <li><router-link to="/moonkindps">Moonkin DPS</router-link></li>
             <li><router-link to="/healing">Healing</router-link></li>
             <li><router-link to="/talentcalculator">Talent Calculator</router-link></li>
+            
             </ol>
         </h2>
         <h5><a href="https://classicdb.ch/?talent#0">Druid Talent Calculator</a></h5>
