@@ -31,3 +31,7 @@ const app = new Vue({
   router
 }).$mount('#app');
 
+// const balance = document.getElementsByClassName('tree');
+// const button = $('<button>balance.val</button>')
+
+// if(button = isNull){console.log('this is null')} else{console.log('not null')};
